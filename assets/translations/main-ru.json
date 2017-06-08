@@ -1,0 +1,57 @@
+{
+	"nav": {
+		"brand": "Alex Dev",
+		"portfolio": "Портфолио",
+		"about": "Про меня",
+		"faq": "FAQ"
+	},
+	"section": {
+		"header": {
+			"text": "Веб разработчик: Laravel, VueJS, NodeJS"
+		},
+		"portfolio": {
+			"title": "Портфолио",
+			"client": "Клиент",
+			"date": "Дата",
+			"service": "Сервис"
+		},
+		"about": {
+			"title": "Про меня",
+			"text1": "Привет. Я Алекс и мне 16. Мои ники: Alex Wells, autaut03 и редко bruse_williams. Я разрабатываю с 13 лет и мне это все еще нравится. Начиная с Pawn, потом Java, теперь я бекенд PHP разработчик. И иногда фронтенд :)",
+			"text2": "Но чистый PHP ужасен, поэтому я использую лучший фреймворк что я видел - Laravel. Из коробки он включает в себя все фичи, нужные хорошему девелоперу. Он так-же быстрейший и простейший. И я уже год кодю на нем."
+		},
+		"faq": {
+			"title": "Часто задаваемые вопросы"
+		}
+	},
+	"projects": {
+		"csgoeffect": {
+			"title": "CSGOEffect.ru",
+			"text": "<a href=\"http://csgoeffect.ru\" target=\"_blank\">CSGOEffect</a> был разработан используя Laravel, NodeJS, Socket.IO и steam API для заказчика. Этот проект включает в себя обновления данных \"на лету\", работу со старым, плохо-работающим steam API, дофига бизнес логики и много чего еще.",
+			"client": "Максим Липин",
+			"date": "Ноябрь 2015",
+			"service": "Веб и бот разработка"
+		},
+		"coursework": {
+			"title": "Курсовая работа",
+			"text": "<a href=\"https://gitlab.com/Alex_Wells/curse-work-1\" target=\"_blank\">Курсовая работа</a> это проект что я построил с помощью Laravel и jQuery для моей школы. Это очень легкий и обычный проект который был сделан за половину дня. Но там все еще хороший код который я могу вам показать.",
+			"client": "Я",
+			"date": "Май 2016",
+			"service": "Веб разработка"
+		},
+		"steamaccountcreator": {
+			"title": "Создание аккаунтов стима",
+			"text": "<a href=\"https://gitlab.com/Alex_Wells/testing-project-1/tree/master\" target=\"_blank\">Создание аккаунтов стим</a> это nodeJS скрипт который генерирует, создает, валидирует и сохраняет стим аккаунт из ничего. Вы должны сделать только одно: запустить скрипт и ввести номер телефона который вы хотите прицепить. Этот проект был сделан с целью получения репутации запросом незнакомца.",
+			"client": "Незнакомец",
+			"date": "Август 2016",
+			"service": "Бот разработка"
+		},
+		"wintheskin": {
+			"title": "Win the Skin",
+			"text": "<a href=\"http://wintheskin.net\" target=\"_blank\">Win the Skin</a> is a project I'm building for myself. Is uses Laravel, VueJS, NodeJS, SocketCluster and lots of useful libraries. I can show you a structure of this project and even parts of the code if you ask. That's all I can say ATM.",
+			"client": "Я",
+			"date": "???",
+			"service": "Веб и бот разработка"
+		}
+	}
+}

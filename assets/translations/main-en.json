@@ -1,0 +1,57 @@
+{
+	"nav": {
+		"brand": "Alex Dev",
+		"portfolio": "Portfolio",
+		"about": "About me",
+		"faq": "FAQ"
+	},
+	"section": {
+		"header": {
+			"text": "Web developer: Laravel, VueJS, NodeJS"
+		},
+		"portfolio": {
+			"title": "Portfolio",
+			"client": "Client",
+			"date": "Date",
+			"service": "Service"
+		},
+		"about": {
+			"title": "About me",
+			"text1": "Hello. I'm Alex and I'm 16. My nicknames are: Alex Wells, autaut03 and rarely bruse_williams. I've been developing since the age of 13 and I still like it. Starting with Pawn, then Java, now I'm a backend PHP developer. And sometimes frontend :)",
+			"text2": "But plain PHP is awful, so I'm using best framework I've ever seen - Laravel. Out of the box it includes almost all features that good web developer needs. It's also the fastest and simplest. And it's been one year already me coding with it."
+		},
+		"faq": {
+			"title": "Frequently Asked Questions"
+		}
+	},
+	"projects": {
+		"csgoeffect": {
+			"title": "CSGOEffect.ru",
+			"text": "<a href=\"http://csgoeffect.ru\" target=\"_blank\">CSGOEffect</a> was developed using Laravel, NodeJS, Socket.IO and steam API for the customer. This project includes on-fly data updates, working with old, badly-working steam API, lots of business logic and lot's of other things.",
+			"client": "Maksim Lipin",
+			"date": "November 2015",
+			"service": "Web and bot development"
+		},
+		"coursework": {
+			"title": "Course work",
+			"text": "<a href=\"https://gitlab.com/Alex_Wells/curse-work-1\" target=\"_blank\">Course work</a> is a project that I built using Laravel and jQuery for my school's curse work. This is extremely easy and common project that was done in a half of the day. But it still has a good code that I can show to you.",
+			"client": "Me",
+			"date": "May 2016",
+			"service": "Web development"
+		},
+		"steamaccountcreator": {
+			"title": "Steam account creator",
+			"text": "<a href=\"https://gitlab.com/Alex_Wells/testing-project-1/tree/master\" target=\"_blank\">Steam account creator</a> is nodeJS script that generates, creates, validates and saves steam account from nothing. The only thing you need to do is: run the script and enter the phone number you'd like to attach. This project was built for the purpose of getting reputation by a request of some stranger.",
+			"client": "Stranger",
+			"date": "August 2016",
+			"service": "Bot development"
+		},
+		"wintheskin": {
+			"title": "Win the Skin",
+			"text": "<a href=\"http://wintheskin.net\" target=\"_blank\">Win the Skin</a> is a project I'm building for myself. Is uses Laravel, VueJS, NodeJS, SocketCluster and lots of useful libraries. I can show you a structure of this project and even parts of the code if you ask. That's all I can say ATM.",
+			"client": "Me",
+			"date": "???",
+			"service": "Web and bot development"
+		}
+	}
+}
