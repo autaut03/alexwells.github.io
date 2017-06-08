@@ -1,27 +1,17 @@
 {
 	"nav": {
 		"brand": "Alex Dev",
-		"portfolio": "Portfolio",
-		"about": "About me",
-		"faq": "FAQ"
+		"portfolio": "Portfolio"
 	},
 	"section": {
 		"header": {
-			"text": "Web developer: Laravel, VueJS, NodeJS"
+			"text": "Web Developer: Laravel, VueJS, NodeJS, Steam API, Steam Bot Cluster"
 		},
 		"portfolio": {
 			"title": "Portfolio",
 			"client": "Client",
 			"date": "Date",
 			"service": "Service"
-		},
-		"about": {
-			"title": "About me",
-			"text1": "Hello. I'm Alex and I'm 16. My nicknames are: Alex Wells, autaut03 and rarely bruse_williams. I've been developing since the age of 13 and I still like it. Starting with Pawn, then Java, now I'm a backend PHP developer. And sometimes frontend :)",
-			"text2": "But plain PHP is awful, so I'm using best framework I've ever seen - Laravel. Out of the box it includes almost all features that good web developer needs. It's also the fastest and simplest. And it's been one year already me coding with it."
-		},
-		"faq": {
-			"title": "Frequently Asked Questions"
 		}
 	},
 	"projects": {
@@ -45,13 +35,6 @@
 			"client": "Stranger",
 			"date": "August 2016",
 			"service": "Bot development"
-		},
-		"wintheskin": {
-			"title": "Win the Skin",
-			"text": "<a href=\"http://wintheskin.net\" target=\"_blank\">Win the Skin</a> is a project I'm building for myself. Is uses Laravel, VueJS, NodeJS, SocketCluster and lots of useful libraries. I can show you a structure of this project and even parts of the code if you ask. That's all I can say ATM.",
-			"client": "Me",
-			"date": "???",
-			"service": "Web and bot development"
 		}
 	}
 }

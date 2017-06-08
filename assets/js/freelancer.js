@@ -1,14 +1,20 @@
-"use strict"; // Start of use strict
-
 $(document).ready(function() {
-	$('[data-localize]').localize('../assets/translations/main', { fallback: 'en', language: 'ru' });
+    localizeWholeSite(Cookies.get('lang') || 'ru');
+	
+	$('.switch-lang').click(function(event) {
+		let lang = $(this).attr('data-lang');
+		console.log('Language changed', lang);
+		localizeWholeSite(lang);
+		Cookies.set('lang', lang, { expires: 365 });
+		event.preventDefault();
+	});
 	
 	// jQuery for page scrolling feature - requires jQuery Easing plugin
-    $('.page-scroll a').bind('click', function(event) {
-        var $anchor = $(this);
+    $('.page-scroll a').bind('click', function(event) { // "this" is critical over here.
+        let $anchor = $(this);
         $('html, body').stop().animate({
             scrollTop: ($($anchor.attr('href')).offset().top - 50)
-        }, 1250, 'easeInOutExpo');
+		}, 1250, 'easeInOutExpo');
         event.preventDefault();
     });
 
@@ -19,8 +25,8 @@ $(document).ready(function() {
     });
 
     // Closes the Responsive Menu on Menu Item Click
-    $('.navbar-collapse ul li a').click(function(){ 
-            $('.navbar-toggle:visible').click();
+    $('.navbar-collapse ul li a').click(() => { 
+        $('.navbar-toggle:visible').click();
     });
 
     // Offset for Main Navigation
@@ -32,3 +38,7 @@ $(document).ready(function() {
 	
 	$('body').addClass('loaded');
 });
+
+function localizeWholeSite(language = 'ru') {
+	$('[data-localize]').localize('../assets/translations/main', { language });
+}

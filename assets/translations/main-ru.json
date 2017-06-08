@@ -1,27 +1,17 @@
 {
 	"nav": {
 		"brand": "Alex Dev",
-		"portfolio": "Портфолио",
-		"about": "Про меня",
-		"faq": "FAQ"
+		"portfolio": "Портфолио"
 	},
 	"section": {
 		"header": {
-			"text": "Веб разработчик: Laravel, VueJS, NodeJS"
+			"text": "Веб разработчик: Laravel, VueJS, NodeJS, Steam API, Steam Bot Cluster"
 		},
 		"portfolio": {
 			"title": "Портфолио",
 			"client": "Клиент",
 			"date": "Дата",
 			"service": "Сервис"
-		},
-		"about": {
-			"title": "Про меня",
-			"text1": "Привет. Я Алекс и мне 16. Мои ники: Alex Wells, autaut03 и редко bruse_williams. Я разрабатываю с 13 лет и мне это все еще нравится. Начиная с Pawn, потом Java, теперь я бекенд PHP разработчик. И иногда фронтенд :)",
-			"text2": "Но чистый PHP ужасен, поэтому я использую лучший фреймворк что я видел - Laravel. Из коробки он включает в себя все фичи, нужные хорошему девелоперу. Он так-же быстрейший и простейший. И я уже год кодю на нем."
-		},
-		"faq": {
-			"title": "Часто задаваемые вопросы"
 		}
 	},
 	"projects": {
@@ -45,13 +35,6 @@
 			"client": "Незнакомец",
 			"date": "Август 2016",
 			"service": "Бот разработка"
-		},
-		"wintheskin": {
-			"title": "Win the Skin",
-			"text": "<a href=\"http://wintheskin.net\" target=\"_blank\">Win the Skin</a> is a project I'm building for myself. Is uses Laravel, VueJS, NodeJS, SocketCluster and lots of useful libraries. I can show you a structure of this project and even parts of the code if you ask. That's all I can say ATM.",
-			"client": "Я",
-			"date": "???",
-			"service": "Веб и бот разработка"
 		}
 	}
 }
